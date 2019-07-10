@@ -21,6 +21,11 @@ html {
   overflow-x: hidden;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
  .navbar {
   min-height: 50px;
   overflow: inherit;
@@ -294,6 +299,8 @@ font-family: "acumin-pro",“Helvetica Neue”,Helvetica,Arial,sans-serif;  font
   vertical-align: top;
   width: 100%;
   padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 50px;
 }
 .im1{
   color: black;
@@ -561,7 +568,7 @@ font-weight: bold;
 display: block;
 text-decoration: none;
 }
-.col-sm-3 h6:hover{
+.col-sm-3 a h6:hover{
   color: grey;
   text-decoration: none;
 }
