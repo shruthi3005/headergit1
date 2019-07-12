@@ -319,12 +319,10 @@ font-family: "acumin-pro",“Helvetica Neue”,Helvetica,Arial,sans-serif;  font
   
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+
 h3{
   font-size: 10px;
+  font-family: acumin-pro-condensed, "“Helvetica Neue”", Helvetica, Arial, sans-serif;
 }
 .home2{
   display: block;
@@ -332,8 +330,8 @@ h3{
   color:white;
   background:black;
   border:0;
-  font-size: 14.08px;
-  width:130.621px;
+  font-size: 16px;
+  width:200.621px;
   height:20px;
   line-height: 0;
   text-align: center;
@@ -359,11 +357,11 @@ h3{
 }
 .text4 h2{
   font-size: 28px;
-  color: #666666;
+  color: #C0A987;
 }
 .text4 p{
   font-size: 16px;
-  color: #COA987;
+  color: #666666;
   margin: 0;
   padding-bottom: 100px;
 }
@@ -373,11 +371,11 @@ h3{
 }
 .text6 p{
   font-size: 16px;
-  color: #COA987;
+  color: #666666;
 }
 .text6 h2{
   font-size: 28px;
-  color: #666666;
+  color: #C0A987;
 }
 .text5{
   text-align: center;
@@ -385,11 +383,11 @@ h3{
 }
 .text5 h2{
   font-size: 28px;
-  color: #666666;
+  color: #C0A987;
 }
 .text5 p{
   font-size: 16px;
-  color: #COA987;
+  color: #666666;
   margin: 0;
  padding-bottom: 100px;
 }
@@ -607,4 +605,13 @@ text-decoration: none;
     display: flex;
     height: 3.13rem;
     width: 20.94rem;
+}
+ .list-unstyled li {
+    width: 193px;
+    text-align: left;
+    color: #666666
+  }
+.list-unstyled li a{
+  padding-left: 0px;
+  text-align: left;
 }
