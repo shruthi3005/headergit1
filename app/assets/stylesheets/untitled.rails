@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-md bg-light navbar-light" style="color: black;background-color: white">
+  <a class="navbar-brand" href="#"><strong>Boosted</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav" style="color: black;background-color: white">
+      <li class="nav-item">
+        <a class="nav-link" href="#myModal" style="color: black;">Boards</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#myModal1">Scooter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#myModal2">Accessories</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#myModal">Community</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Support</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Why Boosted</a>
+      </li> 
+      <li><a href="#" style="padding-left: 30px">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAoCAYAAACrUDmFAAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAz9JREFUaN7tWltLG0EU3j/ib7Av/QEas9FHb31QnySir0q01qhJUWhLL7SUloJ0S1SaBzUhXqD1oRer1OJLS1EUtGqhq7UkJo2ieOE038EZxtbii+luthn44OSb+YbzsWfPDGw0LTN0vbdA14Nhjydo6nqALhIfC0v+LS65zU+F7vDny3qBJsxljMUv2phlBk+QMRlnk3hyIpmmpscMNcHq6lvU3h6i0tKg5BCDw5y69iz9WmuPdWjrCWuiLJHY8fExQ01yfX2LMAYH30gOMQbmVHNn6S0epqYmeHR0xFATXFv7zkn397+SHGJwq6ubdJ7e6iENut1d5PXeZ9TV3aWJiTkKBJ5TeXkP+Xx95PF008DAawZicJjDmvHxOdYIPfayRYlmcMpgUdFVxtjYBzo4OKBkMk3Fxe3M+XxP6fDwkIEYHOawBtzo6KzUqwatajICmtoQkBjQ1TVI29tpisVmM7+7qaSkk6qqbtLKislADA5zMJZI/GSN0Nuhi/5hEB0RyS8vf6OKit5TTzORSFFn54Dk/P5+5tSnBo3Qq93VNu9gW9sz2tvbY4gSdLk6KB5PMheLveeSBGAMHOawRpTw/v4+A3vZzqDHEyDDeMEoK7vOSeJJ+P0hikSmqabmNjU2PmIgjkaneQ5rsBYaocdeYt/k5FtLIQ3inRLlZhgvaXd3l5aWvkrO631AOzs7DMSCxxqshUZw2Mt27yAahsvlZxjGJBtZXFznZFGGDQ0PKZ1OMxCDwxzWYC00Qo+9bGcQ1y8kCeCca25+wuccmkskMkO1tXeovv4eA3E0OsNzWIO10Ai9eq2zTYm2thqUSqUYLS198pzb2NhibmTknSxBmAO3uflDnpPQCD32sl2Tqay8QQsLqwzE4pwbHp4i09yijo6QPOcQgxsampLnJDTz818YiG1nUG0yapMQHN45wYmjAThPb6smI845tUkIM2rSwoxq+m96yw1euxKkbMLyyzY5fDjfoNUllPUStboJZL3JON5gvsnkukGrL8NZv2znm0yuG3R8iea7aK4bzDeZXDfo+Mv2/9BkTAf7MzV85nVsieITNj7U44O905qL/BMCxonJMP6CkfPmfvsbyS/F3bgUD4Z/vgAAABJ0RVh0RVhJRjpPcmllbnRhdGlvbgAxhFjs7wAAAABJRU5ErkJggg==" width="60" height="50" alt="">
+      </a>
+      </li> 
+      <li> 
+        <a href="#" style="color: black;padding-left: 15px; width: 50px;height: 60px">
+      <i class="fa fa-shopping-cart"></i>
+        </a>
+       </li>    
+    </ul>
+  </div>  
+</nav>
+

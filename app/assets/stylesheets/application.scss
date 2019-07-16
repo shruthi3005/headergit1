@@ -20,7 +20,9 @@ html {
   height:100.1%;
   overflow-x: hidden;
 }
-
+nav{
+  z-index: 9999;
+}
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
@@ -124,7 +126,8 @@ display: flex;
   display: block;
   line-height: 1;
   font-size: 100px;
-font-family: "acumin-pro",“Helvetica Neue”,Helvetica,Arial,sans-serif;  font-style: italic;
+  font-size: 10vw;
+  font-family: "acumin-pro",“Helvetica Neue”,Helvetica,Arial,sans-serif;  font-style: italic;
   padding: 0px 0px 7.04px
 
 }
@@ -328,7 +331,7 @@ h3{
   display: block;
   margin: auto;
   color:white;
-  background:black;
+  background:#222222;
   border:0;
   font-size: 16px;
   width:200.621px;
@@ -597,4 +600,69 @@ text-decoration: none;
     display: flex;
     height: 3.13rem;
     width: 20.94rem;
+}
+
+
+
+.nav-link a{
+  font-size: 16px;
+  color: black; 
+}
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+@media(max-width: 360px){
+  img.auto1{
+    display: none;
+  }
+}
+
+@media(max-width: 360px){
+  img.auto2{
+ display: none;  
+}
+}
+
+@media(max-width: 360px){
+  .foot{
+display: none;}
+}
+
+@media(max-width: 360px){
+  .font{
+ display: none;  
+}
+}
+@media(max-width: 360px){
+  .row{
+    text-align: center;  
+}
+}
+@media(max-width: 360px){
+  .column1{
+    margin-left: 50px;
+  }
+}
+@media(max-width: 360px){
+  .auto{
+      height: 150px;
+      width: 200px
+  }
+}
+@media(max-width: 360px){
+  img.text0{
+      display: table-row;
+  }
+}
+@media(max-width: 360px){
+  .heading{
+      float: left;
+      padding-left: 0px;
+  }
+}
+@media(max-width: 360px){
+  #outer{
+    float: left;
+    width: 50%;
+  }
 }
