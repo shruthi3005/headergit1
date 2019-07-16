@@ -304,8 +304,8 @@ display: flex;
   vertical-align: top;
   width: 100%;
   padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 50px;
+  padding-right: 20px;
+  padding-left: 30px;
 }
 .im1{
   color: black;
@@ -344,11 +344,14 @@ h3{
 .text3{
   background-color: black;
   font-family:"acumin-pro-extra-condensed";
+  padding-top: 30px;
 } 
 .text3 h1{
   font-size: 48px;
   text-align: center;
   color: #FFFFFF;
+  font-family: acumin-pro-extra-condensed, "“Helvetica Neue”", Helvetica, Arial, sans-serif;
+    line-height: 1.06;
 }
 .text3 center{
   font-size: 16px;
@@ -625,7 +628,14 @@ text-decoration: none;
 
 @media(max-width: 360px){
   .foot{
-display: none;}
+display: none;
+}
+}
+
+@media(max-width: 360px){
+  .email{
+display: none;
+}
 }
 
 @media(max-width: 360px){
@@ -660,9 +670,25 @@ display: none;}
       padding-left: 0px;
   }
 }
+
 @media(max-width: 360px){
-  #outer{
-    float: left;
-    width: 50%;
+  img.auto{
+    width: 250px;
+    
+  }
+}
+@media(max-width: 530px){
+  strong.bloack1{
+    text-align: left;
+  }
+}
+@media(max-width: 530px){
+  .css-52bkov{
+display: none;
+  }
+}
+@media(max-width: 530px){
+  .foot1{
+display: none;
   }
 }
