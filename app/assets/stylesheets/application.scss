@@ -23,10 +23,6 @@ html {
 nav{
   z-index: 9999;
 }
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
 
  .navbar {
   min-height: 50px;
@@ -511,6 +507,7 @@ h3{
 .feedback p{
   font: 16px "acumini-pro";
   color: #666666;
+  text-align: left;
 }
 .feedback h3{
   font: 20px "acumini-pro";
@@ -666,7 +663,7 @@ text-decoration: none;
   }
 }
 @media(max-width: 530px){
-  strong.bloack1{
+  strong.block1{
     text-align: left;
   }
 }
@@ -691,53 +688,88 @@ display: none;
     display: block;
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px) {
+@media screen and (min-width: 3840px) {
   .block1{
     padding-right: 100px !important;
     padding-left: 1400px !important; 
     height: 700px !important; 
-    padding-bottom: 1100px;
+    padding-bottom: 1100px !important;
+    font-size: 20px !important;
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px) {
- h1.block1{
-    font-size: 2.38rem;
-    text-align: left; 
+@media screen and (min-width: 3840px) {
+  .block1 h4{
+    font-size: 30px !important;
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px) {
+@media screen and (min-width: 3840px) {
+  .block1 p{
+    font-size: 20px !important;
+  }
+}
+@media screen and (min-width: 3840px) {
+ .heading{
+    font-size: 40px !important;
+    text-align: left !important; 
+  }
+}
+@media screen and (min-width: 3840px) {
  .navbar{
     padding-left: 1500px !important;
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px) {
+@media screen and (min-width: 3840px) {
  .auto2{
     width: 2048px !important;
     height: 1002.60px !important;
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px) {
+@media screen and (min-width: 3840px) {
  .block img{
   padding-right: 400px !important;
   padding-left: 800px !important;
   height: 700px !important;
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px) {
+@media screen and (min-width: 3840px) {
+ .block {
+    padding-top: 300px !important;
+    padding-bottom: 200px !important; 
+  }
+}
+@media screen and (min-width: 3840px) {
  .blockk{
     width: 2000px !important;
     margin-left: 0px !important;
-    padding-top: 20px !important; 
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px) {
+@media screen and (min-width: 3840px) {
  .row1 .column1 {
     margin-left: 400px !important;
   }
 }
-@media(max-width: 4096px) and (min-width: 4096px)  and (min-width: 4096px) {
+@media screen and (min-width: 3840px){
  .text0 {
     margin-left: 1200px !important;
     margin-right: 1200px !important;
   }
+}
+
+@media screen and (min-width: 3840px) {
+ .container {
+    width: 4000px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+}
+@media screen and (min-width: 3840px) {
+ .foot {
+    padding-right: 1400px !important;
+    padding-left: 1500px !important; 
+}
+}
+@media screen and (min-width: 3840px) {
+ .font {
+    padding-right: 1400px !important;
+}
 }
