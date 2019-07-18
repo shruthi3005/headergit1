@@ -246,7 +246,8 @@ display: flex;
   padding-bottom: 1.88rem;
   margin-bottom: 1.88rem;
   position: relative;
-  font-family: "acumin-pro-extra-condensed"
+  font-family: "acumin-pro-extra-condensed";
+  text-align: left;
 }
 .block1 h4{
   font-size: 16px;
@@ -304,6 +305,7 @@ display: flex;
   padding-bottom: 10px;
   padding-right: 20px;
   padding-left: 30px;
+  overflow: hidden;
 }
 .im1{
   color: black;
@@ -677,7 +679,7 @@ display: none;
 display: none;
   }
 }
-@media(max-width: 360px){
+@media screen and (max-width: 360px){
   .itemwrapper img{
     width: 100% !important;
     display: block;
@@ -778,4 +780,36 @@ display: none;
     padding-right: 500px !important;
     padding-left: 500px !important;
 }
+}
+
+.css-ncanq7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 50%;
+}
+#email{
+  border: 1px solid black;
+}
+.css-52bkov{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font: 14.08px Arial;
+  border: 1px solid black
+} 
+
+.css-1ioemtr {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    padding-left: 100px
 }
