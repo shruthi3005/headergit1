@@ -27,7 +27,7 @@ nav{
   background-color: white;
   padding-right: 0px;
   padding-left: 0px;
-  
+
 }
  .navbar {
   min-height: 50px;
@@ -760,18 +760,16 @@ display: none;
   }
 }
 @media screen and (min-width: 3840px){
- .text0 {
+ .text0 {;
     margin-left: 1200px !important;
     margin-right: 1200px !important;
   }
 }
 
 @media screen and (min-width: 3840px) {
- .container {
-    width: 4000px !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-}
+ .carousel-item {
+    width: 100% !important;
+    }
 }
 @media screen and (min-width: 3840px) {
  .foot {
@@ -800,8 +798,9 @@ display: none;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    width: 50%;
+    width: 730px;
 }
+
 .css-14bdh22{
   border: 1px solid black;
   width: 250.8px !important;
@@ -831,4 +830,27 @@ display: none;
 .itemwrapper:hover img{
   transform: scale(1.2);
     transform-origin: center center;
+}
+.column1{
+  padding-right: 15px;
+}
+.col-sm-3 a h6{
+  padding-bottom: 10px;
+}
+.col-4 a h6{
+  padding-bottom: 10px;
+}
+.col-4 h6{
+  padding-bottom: 20px;
+}
+.col-sm-3 h6{
+  padding-bottom: 20px;
+} 
+.navbar:focus {
+
+text-decoration: none !important;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
 }
