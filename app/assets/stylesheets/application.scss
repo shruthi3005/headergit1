@@ -691,7 +691,7 @@ display: none;
 @media screen and (min-width: 3840px) {
   .block1{
     padding-right: 100px !important;
-    padding-left: 1400px !important; 
+    padding-left: 1200px !important; 
     height: 700px !important; 
     padding-bottom: 1100px !important;
     font-size: 20px !important;
@@ -740,7 +740,7 @@ display: none;
 @media screen and (min-width: 3840px) {
  .blockk{
     width: 2000px !important;
-    margin-left: 0px !important;
+    text-align: center !important;
   }
 }
 @media screen and (min-width: 3840px) {
@@ -771,5 +771,11 @@ display: none;
 @media screen and (min-width: 3840px) {
  .font {
     padding-right: 1400px !important;
+}
+}
+@media screen and (min-width: 3840px) {
+ .warranty {
+    padding-right: 500px !important;
+    padding-left: 500px !important;
 }
 }
