@@ -24,7 +24,7 @@ nav{
   z-index: 9999;
 }
 .navbar-expand-sm{
-  background-color: white;
+  background-color: white !important;
   padding-right: 0px;
   padding-left: 0px;
 
@@ -32,6 +32,7 @@ nav{
  .navbar {
   min-height: 50px;
   overflow: inherit;
+  background-color: white !important;
 }
 
 .container-fluid{
@@ -688,13 +689,13 @@ display: none;
 display: none;
   }
 }
-@media screen and (max-width: 360px){
+@media (min-width: 300px) and (max-width: 800px){
   .itemwrapper img{
     width: 100% !important;
     display: block;
   }
 }
-@media(max-width: 360px){
+@media (min-width: 300px) and (max-width: 800px){
   .itemwrapper {
     display: block;
   }
@@ -759,6 +760,7 @@ display: none;
     margin-left: 400px !important;
   }
 }
+
 @media screen and (min-width: 3840px){
  .text0 {;
     margin-left: 1200px !important;
@@ -766,11 +768,6 @@ display: none;
   }
 }
 
-@media screen and (min-width: 3840px) {
- .carousel-item {
-    width: 100% !important;
-    }
-}
 @media screen and (min-width: 3840px) {
  .foot {
     padding-right: 1400px !important;
@@ -853,4 +850,17 @@ text-decoration: none !important;
 .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: none!important;
+}
+@media(max-width: 1200px){
+  .navbar-toggle {
+        display: block;
+    }
+}
+@media(max-width: 360px){
+  .css-1ioemtr{
+margin-right: 800px;    
+  }
+}
+.navbar-nav{
+  width: 1200px
 }
