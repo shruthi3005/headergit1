@@ -861,7 +861,7 @@ text-decoration: none !important;
 margin-right: 800px;    
   }
 }
-@media(max-width: 414px) and (min-width: 320px){
+@media screen and (min-width: 300px){
   .navbar-nav button{
     padding-left: 0px;
     float: right;
