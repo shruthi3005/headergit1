@@ -32,7 +32,7 @@ nav{
  .navbar {
   min-height: 50px;
   overflow: inherit;
-  background-color: white !important;
+  background-color: white !important
 }
 
 .container-fluid{
@@ -625,13 +625,13 @@ text-decoration: none;
 .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   img.auto1{
     display: none;
   }
 }
 
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   img.auto2{
  display: none;  
 }
@@ -640,35 +640,35 @@ text-decoration: none;
 
 
 
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   .row{
     text-align: center;  
 }
 }
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   .column1{
     margin-left: 50px;
   }
 }
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   .auto{
       height: 150px;
       width: 200px
   }
 }
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   img.text0{
       display: table-row;
   }
 }
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   .heading{
       float: left;
       padding-left: 0px;
   }
 }
 
-@media(max-width: 360px){
+@media(max-width: 414px) and (min-width: 320px){
   img.auto{
     width: 250px;
     
@@ -860,7 +860,4 @@ text-decoration: none !important;
   .css-1ioemtr{
 margin-right: 800px;    
   }
-}
-.navbar-nav{
-  width: 1200px
 }
