@@ -873,3 +873,8 @@ margin-right: 800px;
     padding-right: 300px;
   }
 }
+@media screen and (max-width: 3840px) {
+ .carousel-item .col-md-4{
+   overflow-x: hidden !important;
+ }
+}
